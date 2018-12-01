@@ -116,7 +116,7 @@ def first():
 #   `content` text NOT NULL,
 #   PRIMARY KEY ( id )
 # ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-# 
+
 # CREATE TABLE `zhihu_author` (
 #   `id` int NOT NULL AUTO_INCREMENT,
 #   `author_id` int(100) NOT NULL,

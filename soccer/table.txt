@@ -1,0 +1,226 @@
+<tr data-v-5184131c=""><td class="rank top1" data-v-5184131c=""><span data-v-5184131c="">
+            1
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/2_1464603769_1464603777159.png"/>上海上港
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">21</td> <td data-v-5184131c="">5</td> <td data-v-5184131c="">4</td> <td data-v-5184131c="">77/33</td> <td data-v-5184131c="">68</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank top2" data-v-5184131c=""><span data-v-5184131c="">
+            2
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/83_1503308904_1503308906239.png"/>广州恒大淘宝
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">20</td> <td data-v-5184131c="">3</td> <td data-v-5184131c="">7</td> <td data-v-5184131c="">82/36</td> <td data-v-5184131c="">63</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank top3" data-v-5184131c=""><span data-v-5184131c="">
+            3
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/2_1464603746_1464603754372.png"/>山东鲁能泰山
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">17</td> <td data-v-5184131c="">7</td> <td data-v-5184131c="">6</td> <td data-v-5184131c="">57/39</td> <td data-v-5184131c="">58</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            4
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/logo/429_fa5e518128f1e30afc980b598b252795.png"/>北京中赫国安
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">15</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">7</td> <td data-v-5184131c="">64/45</td> <td data-v-5184131c="">53</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            5
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/3_1488767998_1488768007451.png"/>江苏苏宁易购
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">13</td> <td data-v-5184131c="">9</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">48/33</td> <td data-v-5184131c="">48</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            6
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/83_1503308871_1503308879724.png"/>河北华夏幸福
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">10</td> <td data-v-5184131c="">9</td> <td data-v-5184131c="">11</td> <td data-v-5184131c="">46/50</td> <td data-v-5184131c="">39</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            7
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/2_1464603793_1464603802749.png"/>上海绿地申花
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">10</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">12</td> <td data-v-5184131c="">44/53</td> <td data-v-5184131c="">38</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            8
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/83_1518968146_1518968149033.png"/>北京人和
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">9</td> <td data-v-5184131c="">10</td> <td data-v-5184131c="">11</td> <td data-v-5184131c="">33/46</td> <td data-v-5184131c="">37</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            9
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/10_1486348064_1486348069080.jpg"/>天津权健
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">9</td> <td data-v-5184131c="">9</td> <td data-v-5184131c="">12</td> <td data-v-5184131c="">41/48</td> <td data-v-5184131c="">36</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            10
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/logo/425_54def14ebc5c4086d964a117ccf1df73.png"/>广州富力
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">10</td> <td data-v-5184131c="">6</td> <td data-v-5184131c="">14</td> <td data-v-5184131c="">49/61</td> <td data-v-5184131c="">36</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            11
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/83_1518968156_1518968188270.png"/>大连一方
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">10</td> <td data-v-5184131c="">5</td> <td data-v-5184131c="">15</td> <td data-v-5184131c="">37/57</td> <td data-v-5184131c="">35</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            12
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/logo/442_70d48b0eb5cbf345e29a24bc2c444883.png"/>河南建业
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">10</td> <td data-v-5184131c="">4</td> <td data-v-5184131c="">16</td> <td data-v-5184131c="">30/45</td> <td data-v-5184131c="">34</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            13
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/83_1519967992_1519968084092.png"/>重庆斯威
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">14</td> <td data-v-5184131c="">40/46</td> <td data-v-5184131c="">32</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            14
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/83_1503308892_1503308898489.png"/>天津泰达
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">14</td> <td data-v-5184131c="">41/54</td> <td data-v-5184131c="">32</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            15
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/logo/437_b8af22171514a04fdb5ce317d63026cb.png"/>长春亚泰
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">8</td> <td data-v-5184131c="">14</td> <td data-v-5184131c="">45/56</td> <td data-v-5184131c="">32</td></tr>
+
+
+<tr data-v-5184131c=""><td class="rank" data-v-5184131c=""><span data-v-5184131c="">
+            16
+          </span></td> <td class="team" data-v-5184131c=""><img alt="" data-v-5184131c="" src="http://cdn.qiudd.net/83_1519985419_1519985460382.png"/>贵州恒丰
+        </td> <td data-v-5184131c="">30</td> <td data-v-5184131c="">7</td> <td data-v-5184131c="">3</td> <td data-v-5184131c="">20</td> <td data-v-5184131c="">34/66</td> <td data-v-5184131c="">24</td></tr>
+
+
+CSLdone
+1
+上海上港
+30
+21
+5
+4
+77/33
+68
+2
+广州恒大淘宝
+30
+20
+3
+7
+82/36
+63
+3
+山东鲁能泰山
+30
+17
+7
+6
+57/39
+58
+4
+北京中赫国安
+30
+15
+8
+7
+64/45
+53
+5
+江苏苏宁易购
+30
+13
+9
+8
+48/33
+48
+6
+河北华夏幸福
+30
+10
+9
+11
+46/50
+39
+7
+上海绿地申花
+30
+10
+8
+12
+44/53
+38
+8
+北京人和
+30
+9
+10
+11
+33/46
+37
+9
+天津权健
+30
+9
+9
+12
+41/48
+36
+10
+广州富力
+30
+10
+6
+14
+49/61
+36
+11
+大连一方
+30
+10
+5
+15
+37/57
+35
+12
+河南建业
+30
+10
+4
+16
+30/45
+34
+13
+重庆斯威
+30
+8
+8
+14
+40/46
+32
+14
+天津泰达
+30
+8
+8
+14
+41/54
+32
+15
+长春亚泰
+30
+8
+8
+14
+45/56
+32
+16
+贵州恒丰
+30
+7
+3
+20
+34/66
+24
+CSLdone
