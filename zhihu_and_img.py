@@ -19,8 +19,8 @@ def getHtml(url):
 	return html
 
 def json2dict(data):
-	data_json = html_parser.unescape(data)
-	data_dict = json.loads(data_json)
+	data_dict = json.loads(data)
+	# print(data_dict)
 	return data_dict
 
 def getNextUrl(url):
@@ -35,7 +35,7 @@ def getIsEnd(url):
 
 def insert_author(author_id,author):
 	select_author = "select `author` from `zhihu_author` where `author_id`='"+author_id+"';"
-	print(select_author)
+	# print(select_author)
 	cursor.execute(select_author)
 	results = cursor.fetchall()
 	for row in results:
@@ -59,7 +59,8 @@ def insert_article(url):
 			content = data_dict['data'][x]['target']['content']
 			download_img(content)
 			insert_author(author_id,author)
-			insert_sql = "insert into `zhihu` values(0,'"+bytes(title_id)+"','"+MySQLdb.escape_string(title)+"','"+url+"','"+MySQLdb.escape_string(author_id)+"','"+MySQLdb.escape_string(author)+"','"+MySQLdb.escape_string(content)+"');"
+			insert_sql = "insert into `zhihu`(`title_id`, `title`, `url`, `author_id`, `author`, `content`) values('"+bytes(title_id)+"','"+MySQLdb.escape_string(title)+"','"+url+"','"+MySQLdb.escape_string(author_id)+"','"+MySQLdb.escape_string(author)+"','"+MySQLdb.escape_string(content)+"');"
+			# print(insert_sql)
 			cursor.execute(insert_sql)
 			for x in range(1,5):
 				update_sql = "update `zhihu` set content=replace(content,'https://pic"+str(x)+".zhimg.com','img');"
@@ -80,7 +81,7 @@ def download_img(content):
 	# print(imgs)
 	x = 0
 	for img_src in imgs:
-	    print(img_src['src'])
+	    # print(img_src['src'])
 	    img_url = img_src['src']
 	    if len(img_url) > 0:
 	        file_name = img_url.split('/')[-1]
@@ -92,11 +93,14 @@ def first():
 	html = getHtml("https://www.zhihu.com/people/jiang-zhen-yu-67-74/activities")
 	soup = BeautifulSoup(html,"lxml")
 	# print(soup)
-	data_div = soup.find_all("div", id="data")
-	data = data_div[0]
-	data_decode = json2dict(data['data-state'])
-
-	next_url = data_decode['people']['activitiesByUser']['jiang-zhen-yu-67-74']['previous']
+	data_div = soup.find_all("script", id="js-initialData")
+	# print(data_div)
+	data = data_div[0].get_text()
+	# print(data)
+	data_decode = json2dict(data)
+	# print(data_decode)
+	next_url = data_decode["initialState"]['people']['activitiesByUser']['jiang-zhen-yu-67-74']['previous']
+	print(next_url)
 	while(True):
 		print(insert_article(next_url))
 		is_end = getIsEnd(next_url) #判断是否有下一页
@@ -112,6 +116,7 @@ def first():
 #   `title_id` int(100) NOT NULL,
 #   `title` char(100) NOT NULL,
 #   `url` char(100) NOT NULL,
+#   `author_id` char(100) NOT NULL,
 #   `author` char(40) NOT NULL,
 #   `content` text NOT NULL,
 #   PRIMARY KEY ( id )
@@ -119,7 +124,7 @@ def first():
 
 # CREATE TABLE `zhihu_author` (
 #   `id` int NOT NULL AUTO_INCREMENT,
-#   `author_id` int(100) NOT NULL,
+#   `author_id` char(100) NOT NULL,
 #   `author` char(40) NOT NULL,
 #   PRIMARY KEY ( id )
 # ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

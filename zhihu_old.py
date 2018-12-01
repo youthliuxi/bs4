@@ -17,8 +17,8 @@ def getHtml(url):
 	return html
 
 def json2dict(data):
-	data_json = html_parser.unescape(data)
-	data_dict = json.loads(data_json)
+	data_dict = json.loads(data)
+	# print(data_dict)
 	return data_dict
 
 def getNextUrl(url):
@@ -52,11 +52,13 @@ def first():
 	html = getHtml("https://www.zhihu.com/people/jiang-zhen-yu-67-74/activities")
 	soup = BeautifulSoup(html,"lxml")
 	# print(soup)
-	data_div = soup.find_all("div", id="data")
-	data = data_div[0]
-	data_decode = json2dict(data['data-state'])
-
-	next_url = data_decode['people']['activitiesByUser']['jiang-zhen-yu-67-74']['previous']
+	data_div = soup.find_all("script", id="js-initialData")
+	# print(data_div)
+	data = data_div[0].get_text()
+	# print(data)
+	data_decode = json2dict(data)
+	# print(data_decode)
+	next_url = data_decode["initialState"]['people']['activitiesByUser']['jiang-zhen-yu-67-74']['previous']
 	while(True):
 		print(insert_article(next_url))
 		is_end = getIsEnd(next_url) #判断是否有下一页

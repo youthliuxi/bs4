@@ -36,10 +36,14 @@ def insert(x):
 	soup = BeautifulSoup(html,"html.parser")
 	# print(soup)
 	h4 = soup.find_all('h4')
-
+	i = 0
 	for h4_html in h4:
 		a_href = h4_html.a.get("href")
-		
+		i += 1
+		if i < 2:
+		# 之所以做此修改，是因为csdn小改动了版面，添加了一个“只看原创”的链接，和文章标题链接同格式
+			continue
+		# print(a_href)
 		insert_title,insert_author,insert_content = getArticle(a_href)
 		# print(insert_content)
 		query = "insert into `csdn_note` values(0,'"+MySQLdb.escape_string(insert_title)+"','"+MySQLdb.escape_string(insert_author)+"','"+MySQLdb.escape_string(insert_content)+"');"
@@ -62,6 +66,7 @@ def insert(x):
 
 if __name__ == '__main__':
 	for x in range(1,4):
+		print(x)
 		insert(x)
 	# insert_title,insert_author,insert_content = getArticle("https://www.imooc.com/article/46859")
 	# # print(insert_content)
